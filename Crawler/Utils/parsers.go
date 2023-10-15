@@ -29,7 +29,7 @@ func GetSearchJob(w http.ResponseWriter, r io.ReadCloser, job *SearchJob) {
 func GetTagFile(productTag *Tags, retailerID int, pageType string) {
 	// gets from cloud or database (for now its hardcoded)
 
-	productTagFile := fmt.Sprintf("tmp/retailerTags/%d/%s_tags.json", retailerID, pageType)
+	productTagFile := fmt.Sprintf("Utils/tmp/retailerTags/%d/%s_tags.json", retailerID, pageType)
 
 	if _, err := os.Stat(productTagFile); os.IsNotExist(err) {
 		return
