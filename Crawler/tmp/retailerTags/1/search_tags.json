@@ -1,0 +1,58 @@
+{
+  "ProductBase": [
+    {
+      "selector": ".test_search"
+    },
+    {
+      "selector": ".product_pod"
+    }
+  ],
+  "NestedData": {
+    "productName": [
+      {
+        "selector": "h3 a",
+        "customAttribute": "title"
+      }
+    ],
+    "productCode": [
+      {
+        "selector": "h3 a",
+        "customAttribute": "title"
+      }
+    ],
+    "productURL": [
+      {
+        "selector": ".image_container a",
+        "customAttribute": "href"
+      }
+    ],
+    "productAvailability": [
+      {
+        "selector": ".availability",
+        "customAttribute": ""
+      }
+    ],
+    "productFinalPrice": [
+      {
+        "selector": ".price_color",
+        "customAttribute": ""
+      }
+    ],
+    "productFromPrice": [],
+    "productImages": [
+      {
+        "selector": "img.thumbnail",
+        "customAttribute": ""
+      }
+    ],
+    "productRatingBase": [],
+    "productRatingStars": [
+      {
+        "selector": ".star-rating",
+        "customAttribute": ""
+      }
+    ],
+    "productRatingCount": [],
+    "nextPage": []
+  }
+}

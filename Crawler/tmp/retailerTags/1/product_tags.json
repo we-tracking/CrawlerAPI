@@ -1,0 +1,49 @@
+{
+  "NestedData": {
+    "productName": [
+      {
+        "selector": ".product_main h1",
+        "customAttribute": "title"
+      },
+      {
+        "selector": ".product_main h1",
+        "customAttribute": ""
+      }
+    ],
+    "productCode": [],
+    "productURL": [
+      {
+        "selector": ".image_container a",
+        "customAttribute": ""
+      }
+    ],
+    "productAvailability": [
+      {
+        "selector": ".availability",
+        "customAttribute": ""
+      }
+    ],
+    "productFinalPrice": [
+      {
+        "selector": ".price_color",
+        "customAttribute": ""
+      }
+    ],
+    "productFromPrice": [],
+    "productImages": [
+      {
+        "selector": "#product_gallery .active img",
+        "customAttribute": "src"
+      }
+    ],
+    "productRatingBase": [],
+    "productRatingStars": [
+      {
+        "selector": ".star-rating",
+        "customAttribute": ""
+      }
+    ],
+    "productRatingCount": [],
+    "nextPage": []
+  }
+}
